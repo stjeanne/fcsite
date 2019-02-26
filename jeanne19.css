@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css?family=Crimson+Text');
+
+#wrapper {
+	margin-left: auto;
+	margin-right: auto;
+	width: 1000px;
+	font-family: Crimson Text, serif;
+}
+
+#title {
+	color: #AA0000;
+}
+
+#title h1 {
+	font-size: 40px;
+	line-height: 20px;
+}
+
+#title h2 {
+	line-height: 20px;
+}
+
+#variable {
+	width: 630px;
+	margin-right: 50px;
+	float:left;
+	background-color: #ddd;
+	padding: 10px;
+}
+
+#variable #controls {
+	list-style-type: none;
+	text-align: center;
+}
+
+#variable #controls li {
+	display:inline;
+}
+
+#variable #controls li a {
+	display: block;
+}
+
+#variable #controls li a:hover {
+	background-color: #aaa;
+}
+
+#main {
+	width: 300px;
+	float:right;
+}
+
+#footer {
+	clear:both;
+	text-align: center;
+	font: 8px;
+}
