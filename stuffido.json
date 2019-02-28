@@ -15,10 +15,18 @@
 
 	"comics" :
 	[
+		{
+			"alias":"test",
+			"content":"this is comix content"
+		}
 	],
 
 	"games" :
 	[
+		{
+			"alias":"test",
+			"content":"this is games content"
+		}
 	],
 
 	"design" :
@@ -27,5 +35,13 @@
 
 	"editorial" :
 	[
+	],
+
+	"bio":
+	[
+		{
+			"alias": "bio material",
+			"content": "Jeanne Thornton is the author of a bunch of things listed on this site. She is one of the recipients of the [Judith A Markowitz Emerging Writers Award], as well as a [Lambda Literary Fellow] and a two-time [Lambda Literary Award] finalist. She is one of the publishers of Instar Books. She is sometimes available for freelance work, [please inquire]."
+		}
 	]
 }
