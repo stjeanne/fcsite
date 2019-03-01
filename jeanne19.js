@@ -3,7 +3,14 @@
 let SI = new Object;
 
 let loadSiteData = function() {
-	$.getJSON("stuffido.json") {
-		
-	}
+	$.getJSON("stuffido.json", function(res) {
+		SI = res;
+	});
+};
+
+let setPage = function(pg) {
+	console.log("setPage sets page to " + pg);
 }
+
+loadSiteData();
+setPage('bio'); // default page setting

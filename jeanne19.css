@@ -37,6 +37,10 @@
 	display:inline;
 }
 
+#variable #controls li a .ctl {
+	color: red;
+}
+
 #variable #controls li a {
 	display: block;
 }
