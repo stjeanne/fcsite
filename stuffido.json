@@ -16,8 +16,24 @@
 	"comics" :
 	[
 		{
-			"alias":"test",
-			"content":"this is comix content"
+			"alias":"wsh",
+			"title": "We're Still Here",
+			"content":"The first all-trans comics anthology (as far as we know.) Editor, with Tara Madison Avery. 2018.",
+			"link": "https://stackeddeckpress.com/product/were-still-here-an-all-trans-comics-anthology/"
+		},
+
+		{
+			"alias":"diarycomix",
+			"title": "Diary Comix",
+			"content":"Mostly drawn on the subway to work. 2016-present.",
+			"link": "https://www.instagram.com/jeanneticallymodified/"
+		},
+
+		{
+			"alias":"badmother",
+			"title": "Bad Mother",
+			"content":"A young queer woman raises a child to take on the world. 2012-2016.",
+			"link": "https://badmothercomix.com"
 		}
 	],
 

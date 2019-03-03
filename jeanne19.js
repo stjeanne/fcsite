@@ -10,7 +10,17 @@ let loadSiteData = function() {
 
 let setPage = function(pg) {
 	console.log("setPage sets page to " + pg);
+	loadPageChunk(pg);
 }
 
-loadSiteData();
-setPage('bio'); // default page setting
+let initSite = function() {
+	loadSiteData();
+	setPage('bio'); // default page setting
+}
+
+let loadPageChunk = function(pg) {
+	console.log("entered loadPageChunk");
+	for (i in SI.pg) {
+		console.log(i);
+	}
+}
