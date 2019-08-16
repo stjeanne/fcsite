@@ -3,13 +3,20 @@
 	[
 		{
 			"long" :
-			[],
+			[
+				{
+					"alias":"summerfun",
+					"title":"Summer Fun",
+					"content": "An novel in letters about a trans woman who lives in New Mexico and who is a real true fan of a certain band. Forthcoming, Soho Press, 2021.",
+					"link": "http://sohopress.com"
+				}
+			],
 
 			"short":
 			[],
 
 			"uncollected":
-			{}
+			[]
 		}
 	],
 
@@ -34,6 +41,13 @@
 			"title": "Bad Mother",
 			"content":"A young queer woman raises a child to take on the world. 2012-2016.",
 			"link": "https://badmothercomix.com"
+		},
+
+		{
+			"alias":"mwhf",
+			"title": "The Man Who Hates Fun",
+			"content":"Heavily crosshatched adventures of a Stoic philosopher and his long-suffering pals. 2004-2012, though sometimes I draw new ones.",
+			"link": "http://manwhohatesfun.com"
 		}
 	],
 
@@ -57,7 +71,7 @@
 	[
 		{
 			"alias": "bio material",
-			"content": "Jeanne Thornton is the author of a bunch of things listed on this site. She is one of the recipients of the [Judith A Markowitz Emerging Writers Award], as well as a [Lambda Literary Fellow] and a two-time [Lambda Literary Award] finalist. She is one of the publishers of Instar Books. She is sometimes available for freelance work, [please inquire]."
+			"content": "Jeanne Thornton is the author of a bunch of things listed on this site. She is one of the recipients of the [Judith A Markowitz Emerging Writers Award], as well as a [Lambda Literary Fellow] and a three-time [Lambda Literary Award] finalist. She is one of the publishers of Instar Books. She is sometimes available for freelance work, [please inquire]."
 		}
 	]
 }
