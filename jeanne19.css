@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Crimson+Text');
 
+body {
+	background-color: #407f7f;
+}
+
 #wrapper {
 	margin-left: auto;
 	margin-right: auto;
@@ -8,7 +12,7 @@
 }
 
 #title {
-	color: #AA0000;
+	color: #804515;
 }
 
 #title h1 {
@@ -24,7 +28,7 @@
 	width: 630px;
 	margin-right: 50px;
 	float:left;
-	background-color: #ddd;
+	background-color: #669999;
 	padding: 10px;
 }
 
@@ -38,7 +42,7 @@
 }
 
 #variable #controls li a .ctl {
-	color: red;
+	color: #AA8439;
 }
 
 #variable #controls li a {
@@ -52,6 +56,10 @@
 #main {
 	width: 300px;
 	float:right;
+}
+
+#main a {
+	color: #553900;	
 }
 
 #footer {
