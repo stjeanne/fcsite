@@ -25,12 +25,16 @@ body {
 }
 
 #variable {
-	width: 630px;
+	width: 500px;
 	margin-right: 50px;
 	float:left;
+	font-size: 20px;
 	background-color: #669999;
-	padding: 10px;
+	padding: 3em;
+	padding-top: 1em;
+	padding-bottom: 1em;
 }
+
 
 #variable #controls {
 	list-style-type: none;
