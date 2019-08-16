@@ -4,6 +4,11 @@ body {
 	background-color: #407f7f;
 }
 
+a {
+	color: #805c15;
+	text-decoration: none;
+}
+
 #wrapper {
 	margin-left: auto;
 	margin-right: auto;
@@ -12,12 +17,13 @@ body {
 }
 
 #title {
-	color: #804515;
+	color: #AA3939;
 }
 
 #title h1 {
 	font-size: 40px;
 	line-height: 20px;
+	color: #AA3939;
 }
 
 #title h2 {
@@ -35,6 +41,9 @@ body {
 	padding-bottom: 1em;
 }
 
+#variable h1 {
+	color: #AA3939;
+}
 
 #variable #controls {
 	list-style-type: none;
@@ -62,8 +71,8 @@ body {
 	float:right;
 }
 
-#main a {
-	color: #553900;	
+#main h1 {
+		color: #AA3939;
 }
 
 #footer {
