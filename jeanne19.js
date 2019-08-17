@@ -5,6 +5,7 @@ let SI = new Object;
 let loadSiteData = function() {
 	$.getJSON("stuffido.json", function(res) {
 		SI = res;
+		setPage('About');
 	});
 };
 
@@ -13,14 +14,30 @@ let setPage = function(pg) {
 	loadPageChunk(pg);
 }
 
-let initSite = function() {
-	loadSiteData();
-	setPage('bio'); // default page setting
-}
 
 let loadPageChunk = function(pg) {
-	console.log("entered loadPageChunk");
-	for (i in SI.pg) {
-		console.log(i);
+	console.log("entered loadPageChunk, page is " + pg);
+	$("#gallery").html("<h1>" + pg + "</h1>");
+
+	for (i in SI[pg]) {
+
+		if (pg == 'Prose') {
+			$("#gallery").append("<h2>this one is complex</h2>");
+			console.log("iterate through prose stuff");
+		}
+
+		else {
+
+			let linkhtml = "";
+			let endlink = "";
+
+			if (SI[pg][i].link != undefined) { 
+				linkhtml = "<a href=\"" + SI[pg][i].link + "\">";
+				endlink = "</a>";
+			}
+
+			$("#gallery").append("<h2>" + linkhtml + SI[pg][i].title + endlink + "</h2>");
+			$("#gallery").append("<p>" + SI[pg][i].content + "</p>");
+		}
 	}
 }

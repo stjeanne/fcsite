@@ -1,5 +1,5 @@
 {
-	"prose" :
+	"Prose" :
 	[
 		{
 			"long" :
@@ -13,14 +13,27 @@
 			],
 
 			"short":
-			[],
+			[
+				{
+					"alias":"shortthing",
+					"title":"short thing",
+					"content":"a test item.",
+					"link": "http://google.com"
+				}
+			],
 
 			"uncollected":
-			[]
+			[
+				{
+					"alias":"storytitle",
+					"title":"uncollected story",
+					"content":"a test item with NO LINK"
+				}
+			]
 		}
 	],
 
-	"comics" :
+	"Comics" :
 	[
 		{
 			"alias":"wsh",
@@ -40,7 +53,7 @@
 			"alias":"badmother",
 			"title": "Bad Mother",
 			"content":"A young queer woman raises a child to take on the world. 2012-2016.",
-			"link": "https://badmothercomix.com"
+			"link": "http://badmothercomix.com"
 		},
 
 		{
@@ -51,23 +64,54 @@
 		}
 	],
 
-	"games" :
+	"Games" :
 	[
 		{
-			"alias":"test",
-			"content":"this is games content"
+			"alias":"cap1",
+			"title": "Capitalism 1",
+			"content": "A short game about what capitalism is like. Construct2, 2014.",
+			"link": "http://fictioncircus.com/Jeanne/capitalism1"
+		},
+
+		{
+			"alias":"cap0",
+			"title": "Capitalism Zero: Crisis in the Stars",
+			"content": "An ongoing game project about a strange dream. HTML/CSS/JS, 2018-present.",
+			"link": "http://fictioncircus.com/Jeanne/capitalism0"
+		},
+
+		{
+			"alias": "cap2",
+			"title": "Capitalism 2: Planet of the Death Dragons",
+			"content": "You and your pal will definitely get the better of capitalism this time. Construct2, 2014-present (unfinished)."
 		}
 	],
 
-	"design" :
+	"Design" :
 	[
+		{
+			"alias":"edblockcontent",
+			"title": "Design project x",
+			"content":"here is a big block of content!"
+		}
 	],
 
-	"editorial" :
+	"Editorial" :
 	[
+		{
+			"alias":"edblockcontent",
+			"title":"editorial project y",
+			"content":"here is a big block of content!"
+		},
+
+		{
+			"alias":"edblockcontent",
+			"title":"editorial project z",
+			"content":"here is a big block of content!"
+		}
 	],
 
-	"bio":
+	"About":
 	[
 		{
 			"alias": "bio material",

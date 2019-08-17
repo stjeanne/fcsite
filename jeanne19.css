@@ -45,6 +45,11 @@ a {
 	color: #AA3939;
 }
 
+#variable h2 {
+	font-size: 20px;
+	color: #aa3939;
+}
+
 #variable #controls {
 	list-style-type: none;
 	text-align: center;
@@ -73,6 +78,11 @@ a {
 
 #main h1 {
 		color: #AA3939;
+}
+
+#main h2 {
+	color: #aa3939;
+	font-size: 22px;
 }
 
 #footer {
