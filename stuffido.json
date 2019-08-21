@@ -2,7 +2,7 @@
 	"Prose" :
 	[
 		{
-			"long" :
+			"novel" :
 			[
 				{
 					"alias":"summerfun",
@@ -12,22 +12,63 @@
 				}
 			],
 
-			"short":
+			"uncollected":
 			[
+
+				{ 
+					"alias": "fount",
+					"title": "The Fountainhead", 
+					"content":"The teenage fan of a problematic novelist-philosopher works at an office supply store. Evergreen Review 2.3, March 2019.",
+					"link": ""
+				},	
+
 				{
-					"alias":"shortthing",
-					"title":"short thing",
-					"content":"a test item.",
-					"link": "http://google.com"
+					"title":"White People Anonymous",
+					"content":"A trans woman is required to join a twelve-step group for white women recovering from online racism. n+1, March 2018.",
+					"link": ""
+				},
+
+				{	"title":"Angels Are Here to Help You",
+					"content":"In a mysterious future, one trans woman and her famous cat set out for the stars to start a hallucinogenic drug company. In Meanwhile, Elsewhere, Topside: 2017.",
+					"link": ""
+
+				},
+
+				{
+					"title":"The L7 Gene",
+					"content":"On returning home for Thanksgiving, a trans woman learns that her mother has created a cis clone of her. WIRED, January 2017.",
+					"link": ""
+
+				},
+
+				{
+					"title":"Tipping Point",
+					"content":"An actor approaches some trans women with a Proposition. WSQ, Fall/Winter 2016.",
+					"link": ""
+
+				},
+
+				{
+					"title":"Red Velvet LLC",
+					"content":"Two trans folks attempt to start a bakery company. Twitter Fiction Festival, 2015.",
+					"link": ""
+
+				},
+
+				{
+					"title":"Vampire Book Tour",
+					"content":"Clearly totally fictional story about vampires. Pushcart nominee. In Where We're Going We Don't Need Roads, Topside: 2014.",
+					"link": ""
+
 				}
 			],
 
-			"uncollected":
+			"blackemerald":
 			[
 				{
 					"alias":"storytitle",
-					"title":"uncollected story",
-					"content":"a test item with NO LINK"
+					"title":"Myra's Seven Conversations",
+					"content":"The emotionally unavailable owner of a bed and breakfast offers a conversation service for women who want to fall in love with her. Written 2011."
 				}
 			]
 		}
