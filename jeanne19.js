@@ -17,6 +17,7 @@ let setPage = function(pg) {
 
 let loadPageChunk = function(pg) {
 	console.log("entered loadPageChunk, page is " + pg);
+
 	$("#gallery").html("<h1>" + pg + "</h1>");
 
 	for (i in SI[pg]) {
@@ -36,7 +37,8 @@ let loadPageChunk = function(pg) {
 				endlink = "</a>";
 			}
 
-			$("#gallery").append("<h2>" + linkhtml + SI[pg][i].title + endlink + "</h2>");
+
+			if (SI[pg][i].title != undefined) { $("#gallery").append("<h2>" + linkhtml + SI[pg][i].title + endlink + "</h2>"); }
 			$("#gallery").append("<p>" + SI[pg][i].content + "</p>");
 		}
 	}

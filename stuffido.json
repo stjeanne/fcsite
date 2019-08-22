@@ -9,6 +9,13 @@
 					"title":"Summer Fun",
 					"content": "An novel in letters about a trans woman who lives in New Mexico and who is a real true fan of a certain band. Forthcoming, Soho Press, 2021.",
 					"link": "http://sohopress.com"
+				},
+
+				{
+					"alias":"doctorbantam",
+					"title":"The Dream of Doctor Bantam",
+					"content": "In mourning after the suicide of her sister, a young woman begins working as a housekeeper for her crush, who belongs to a cult that does not believe in linear time. Lambda Literary Award Finalist. OR Books, 2012.",
+					"link": "https://www.orbooks.com/catalog/doctor-bantam/"
 				}
 			],
 
@@ -100,8 +107,14 @@
 		{
 			"alias":"mwhf",
 			"title": "The Man Who Hates Fun",
-			"content":"Heavily crosshatched adventures of a Stoic philosopher and his long-suffering pals. 2004-2012, though sometimes I draw new ones.",
+			"content":"The heavily crosshatched adventures of a Stoic philosopher and his long-suffering pals. 2004-2012, mostly: I draw new ones.",
 			"link": "http://manwhohatesfun.com"
+		},
+
+		{
+			"alias":"ghostgirl",
+			"title":"Diary of a Ghost Girl",
+			"content": "A teen falls in love with her own diary. Never completed. 2010-2012."
 		}
 	],
 
