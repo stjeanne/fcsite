@@ -39,7 +39,40 @@ let loadPageChunk = function(pg) {
 
 
 			if (SI[pg][i].title != undefined) { $("#gallery").append("<h2>" + linkhtml + SI[pg][i].title + endlink + "</h2>"); }
-			$("#gallery").append("<p>" + SI[pg][i].content + "</p>");
+			
+			$("#gallery").append("<p>" + parseLinks(SI[pg][i].content).toString + "</p>");
 		}
 	}
+}
+
+let parseLinks = function(txt) {
+
+
+	// grab substrings of everything between brackets and push into an array or something
+	// go through the array and process those substrings
+	// replace each substring in the original string and return
+
+	let working = txt.match(/\[.*?\]/g);
+
+	working.forEach(function(s) {
+
+		let c = s;
+
+		c.replace(/\[/g, "");
+		c.replace(/\]/g, "");
+
+		let p = c.split("|");
+
+		console.log(p);
+		let _content = p[0];
+		let _link = p[1];
+
+		let _final = "<a href=\"" + _link + "\">" + _content + "</a>";
+
+		console.log(_final);
+
+		txt.replace(s, _final);
+	});
+
+	return txt.toString();
 }
