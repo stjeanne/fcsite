@@ -20,7 +20,22 @@
 				],
 
 			
-				"Uncollected":
+				"The Black Emerald (stories)":
+				[
+					{
+						"alias":"storytitle",
+						"title":"Myra's Seven Conversations",
+						"content":"The emotionally unavailable owner of a bed and breakfast offers a conversation service for women who want to fall in love with her. Written 2011."
+					},
+
+					{
+						"alias":"storytitle",
+						"title":"Myra's Seven Conversations",
+						"content":"The emotionally unavailable owner of a bed and breakfast offers a conversation service for women who want to fall in love with her. Written 2011."
+					}
+				],
+
+				"Stories (Uncollected)":
 				[
 
 					{ 
@@ -69,23 +84,10 @@
 						"link": ""
 
 					}
-				],
-
-				"in The Black Emerald":
-			[
-				{
-					"alias":"storytitle",
-					"title":"Myra's Seven Conversations",
-					"content":"The emotionally unavailable owner of a bed and breakfast offers a conversation service for women who want to fall in love with her. Written 2011."
-				},
-
-				{
-					"alias":"storytitle",
-					"title":"Myra's Seven Conversations",
-					"content":"The emotionally unavailable owner of a bed and breakfast offers a conversation service for women who want to fall in love with her. Written 2011."
-				}
-			]
+				]
 		},
+
+
 
 	"Comics" :
 	[

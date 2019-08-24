@@ -21,13 +21,12 @@ let loadPageChunk = function(pg) {
 
 	$("#gallery").html("");
 
-	if (pg != 'Prose') { $("#gallery").append("<h1>" + pg + "</h1>"); }
 
-	for (i in SI[pg]) {
+	if (pg == 'Prose') {
 
-		if (pg == 'Prose') {
+		for (i in SI[pg]) {
 
-			$("#gallery").append("<h1>" + Object.keys(SI[pg])[i] + "</h1>")
+			$("#gallery").append("<h1>" + i + "</h1>")
 
 			for (j in SI[pg][i]) {
 
@@ -36,18 +35,20 @@ let loadPageChunk = function(pg) {
 				if (x.title != undefined) { $("#gallery").append(makeHeaderLink(x)); }
 				$("#gallery").append("<p>" + parseLinks(x.content) + "</p>");
 			}
-
-//			$("#gallery").append("<h2>this one is complex</h2>");
-//			console.log("iterate through prose stuff");
 		}
+	}
 
-		else {
+	else {
+
+		$("#gallery").append("<h1>" + pg + "</h1>"); 
+
+		for (i in SI[pg]) {
 
 			if (SI[pg][i].title != undefined) { $("#gallery").append(makeHeaderLink(SI[pg][i])); }
 			
 			$("#gallery").append("<p>" + parseLinks(SI[pg][i].content) + "</p>");
 		}
-	}
+	}		
 }
 
 let parseLinks = function(txt) {
