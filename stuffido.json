@@ -1,85 +1,91 @@
 {
-	"Prose" :
-	[
-		{
-			"novel" :
+	"Prose" : 
+
+			{
+				"Novels" :
+				[
+					{
+						"alias":"summerfun",
+						"title":"Summer Fun",
+						"content": "An novel in letters about a trans woman who lives in New Mexico and who is a real true fan of a certain band. Forthcoming, Soho Press, 2021.",
+						"link": "http://sohopress.com"
+					},
+
+					{
+						"alias":"doctorbantam",
+						"title":"The Dream of Doctor Bantam",
+						"content": "In mourning after the suicide of her sister, a young woman begins working as a housekeeper for her crush, who belongs to a cult that does not believe in linear time. Lambda Literary Award Finalist. OR Books, 2012.",
+						"link": "https://www.orbooks.com/catalog/doctor-bantam/"
+					}
+				],
+
+			
+				"Uncollected":
+				[
+
+					{ 
+						"alias": "fount",
+						"title": "The Fountainhead", 
+						"content":"The teenage fan of a problematic novelist-philosopher works at an office supply store. Evergreen Review 2.3, March 2019.",
+						"link": ""
+					},	
+
+					{
+						"title":"White People Anonymous",
+						"content":"A trans woman is required to join a twelve-step group for white women recovering from online racism. n+1, March 2018.",
+						"link": ""
+					},
+
+					{	"title":"Angels Are Here to Help You",
+						"content":"In a mysterious future, one trans woman and her famous cat set out for the stars to start a hallucinogenic drug company. In Meanwhile, Elsewhere, Topside: 2017.",
+						"link": ""
+
+					},
+
+					{
+						"title":"The L7 Gene",
+						"content":"On returning home for Thanksgiving, a trans woman learns that her mother has created a cis clone of her. WIRED, January 2017.",
+						"link": ""
+
+					},
+
+					{
+						"title":"Tipping Point",
+						"content":"An actor approaches some trans women with a Proposition. WSQ, Fall/Winter 2016.",
+						"link": ""
+
+					},
+
+					{
+						"title":"Red Velvet LLC",
+						"content":"Two trans folks attempt to start a bakery company. Twitter Fiction Festival, 2015.",
+						"link": ""
+
+					},
+
+					{
+						"title":"Vampire Book Tour",
+						"content":"Clearly totally fictional story about vampires. Pushcart nominee. In Where We're Going We Don't Need Roads, Topside: 2014.",
+						"link": ""
+
+					}
+				],
+
+				"in The Black Emerald":
 			[
 				{
-					"alias":"summerfun",
-					"title":"Summer Fun",
-					"content": "An novel in letters about a trans woman who lives in New Mexico and who is a real true fan of a certain band. Forthcoming, Soho Press, 2021.",
-					"link": "http://sohopress.com"
+					"alias":"storytitle",
+					"title":"Myra's Seven Conversations",
+					"content":"The emotionally unavailable owner of a bed and breakfast offers a conversation service for women who want to fall in love with her. Written 2011."
 				},
 
-				{
-					"alias":"doctorbantam",
-					"title":"The Dream of Doctor Bantam",
-					"content": "In mourning after the suicide of her sister, a young woman begins working as a housekeeper for her crush, who belongs to a cult that does not believe in linear time. Lambda Literary Award Finalist. OR Books, 2012.",
-					"link": "https://www.orbooks.com/catalog/doctor-bantam/"
-				}
-			],
-
-			"uncollected":
-			[
-
-				{ 
-					"alias": "fount",
-					"title": "The Fountainhead", 
-					"content":"The teenage fan of a problematic novelist-philosopher works at an office supply store. Evergreen Review 2.3, March 2019.",
-					"link": ""
-				},	
-
-				{
-					"title":"White People Anonymous",
-					"content":"A trans woman is required to join a twelve-step group for white women recovering from online racism. n+1, March 2018.",
-					"link": ""
-				},
-
-				{	"title":"Angels Are Here to Help You",
-					"content":"In a mysterious future, one trans woman and her famous cat set out for the stars to start a hallucinogenic drug company. In Meanwhile, Elsewhere, Topside: 2017.",
-					"link": ""
-
-				},
-
-				{
-					"title":"The L7 Gene",
-					"content":"On returning home for Thanksgiving, a trans woman learns that her mother has created a cis clone of her. WIRED, January 2017.",
-					"link": ""
-
-				},
-
-				{
-					"title":"Tipping Point",
-					"content":"An actor approaches some trans women with a Proposition. WSQ, Fall/Winter 2016.",
-					"link": ""
-
-				},
-
-				{
-					"title":"Red Velvet LLC",
-					"content":"Two trans folks attempt to start a bakery company. Twitter Fiction Festival, 2015.",
-					"link": ""
-
-				},
-
-				{
-					"title":"Vampire Book Tour",
-					"content":"Clearly totally fictional story about vampires. Pushcart nominee. In Where We're Going We Don't Need Roads, Topside: 2014.",
-					"link": ""
-
-				}
-			],
-
-			"blackemerald":
-			[
 				{
 					"alias":"storytitle",
 					"title":"Myra's Seven Conversations",
 					"content":"The emotionally unavailable owner of a bed and breakfast offers a conversation service for women who want to fall in love with her. Written 2011."
 				}
 			]
-		}
-	],
+		},
 
 	"Comics" :
 	[
@@ -138,38 +144,41 @@
 			"alias": "cap2",
 			"title": "Capitalism 2: Planet of the Death Dragons",
 			"content": "You and your pal will definitely get the better of capitalism this time. Construct2, 2014-present (unfinished)."
-		}
-	],
-
-	"Design" :
-	[
-		{
-			"alias":"edblockcontent",
-			"title": "Design project x",
-			"content":"here is a big block of content!"
-		}
-	],
-
-	"Editorial" :
-	[
-		{
-			"alias":"edblockcontent",
-			"title":"editorial project y",
-			"content":"here is a big block of content!"
 		},
 
 		{
-			"alias":"edblockcontent",
-			"title":"editorial project z",
-			"content":"here is a big block of content!"
+			"alias": "id",
+			"title": "Immortal Defense",
+			"content": "A weird tower defense game based on ideas about immortality + violence in games. Just the story. I was very young! Studio Eres, Gamemaker, 2007.",
+			"link": "https://store.steampowered.com/app/298360/Immortal_Defense/"
 		}
+	],
+
+
+	"Publishing" :
+	[
+		{
+			"alias":"instar",
+			"title":"Instar Books",
+			"content":"A current obsession about which i will write more later!",
+			"link": "http://instarbooks.com"
+		},
+
+		{
+			"alias":"freelance",
+			"title":"Freelance Editorial",
+			"content":"For years I made my living doing freelance editorial work for [various|http://greenleafbookgroup.com] [clients|http://stackeddeckpress.com]."
+		}
+
+
+
 	],
 
 	"About":
 	[
 		{
 			"alias": "bio material",
-			"content": "Jeanne Thornton is the author of a bunch of things listed on this site. She is one of the recipients of the [Judith A Markowitz Emerging Writers Award|https://www.lambdaliterary.org/emerging-writer-award/], as well as a Lambda Literary Fellow and a three-time Lambda Literary Award finalist. She is one of the publishers of [Instar Books|http://www.instarbooks.com]. She is sometimes available for freelance work, [please inquire|mailto:jwthornton@gmail.com]."
+			"content": "Jeanne Thornton is the author of a bunch of things listed on this site. She is one of the recipients of the [Judith A Markowitz Emerging Writers Award|https://www.lambdaliterary.org/emerging-writer-award/], as well as a [Lambda Literary|http://lambdaliterary.org] Fellow and a three-time Lambda Literary Award finalist. She is one of the publishers of [Instar Books|http://www.instarbooks.com].</p>\n\n<p>She is sometimes available for freelance work, [please inquire|mailto:jwthornton@gmail.com]!"
 		}
 	]
 }

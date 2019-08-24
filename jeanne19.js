@@ -18,29 +18,34 @@ let setPage = function(pg) {
 let loadPageChunk = function(pg) {
 	console.log("entered loadPageChunk, page is " + pg);
 
-	$("#gallery").html("<h1>" + pg + "</h1>");
+
+	$("#gallery").html("");
+
+	if (pg != 'Prose') { $("#gallery").append("<h1>" + pg + "</h1>"); }
 
 	for (i in SI[pg]) {
 
 		if (pg == 'Prose') {
-			$("#gallery").append("<h2>this one is complex</h2>");
-			console.log("iterate through prose stuff");
+
+			$("#gallery").append("<h1>" + Object.keys(SI[pg])[i] + "</h1>")
+
+			for (j in SI[pg][i]) {
+
+				let x = SI[pg][i][j];
+
+				if (x.title != undefined) { $("#gallery").append(makeHeaderLink(x)); }
+				$("#gallery").append("<p>" + parseLinks(x.content) + "</p>");
+			}
+
+//			$("#gallery").append("<h2>this one is complex</h2>");
+//			console.log("iterate through prose stuff");
 		}
 
 		else {
 
-			let linkhtml = "";
-			let endlink = "";
-
-			if (SI[pg][i].link != undefined) { 
-				linkhtml = "<a href=\"" + SI[pg][i].link + "\">";
-				endlink = "</a>";
-			}
-
-
-			if (SI[pg][i].title != undefined) { $("#gallery").append("<h2>" + linkhtml + SI[pg][i].title + endlink + "</h2>"); }
+			if (SI[pg][i].title != undefined) { $("#gallery").append(makeHeaderLink(SI[pg][i])); }
 			
-			$("#gallery").append("<p>" + parseLinks(SI[pg][i].content).toString + "</p>");
+			$("#gallery").append("<p>" + parseLinks(SI[pg][i].content) + "</p>");
 		}
 	}
 }
@@ -48,31 +53,48 @@ let loadPageChunk = function(pg) {
 let parseLinks = function(txt) {
 
 
+	txt = txt.toString();
+
 	// grab substrings of everything between brackets and push into an array or something
 	// go through the array and process those substrings
 	// replace each substring in the original string and return
 
 	let working = txt.match(/\[.*?\]/g);
 
-	working.forEach(function(s) {
+	if(working != null) {				// ie if we have some links
+		working.forEach(function(s) {
 
-		let c = s;
+			let c = s;
 
-		c.replace(/\[/g, "");
-		c.replace(/\]/g, "");
+			c = c.replace(/\[/g, "");
+			c = c.replace(/\]/g, "");
 
-		let p = c.split("|");
+			let p = c.split("|");
 
-		console.log(p);
-		let _content = p[0];
-		let _link = p[1];
+			let _content = p[0];
+			let _link = p[1];
 
-		let _final = "<a href=\"" + _link + "\">" + _content + "</a>";
+			let _final = "<a href=\"" + _link + "\">" + _content + "</a>";
 
-		console.log(_final);
+			txt = txt.replace(s, _final);
+		});
+	}
 
-		txt.replace(s, _final);
-	});
+	return txt;
+}
 
-	return txt.toString();
+let makeHeaderLink = function(o) {			// takes a JSON object
+
+	let linkhtml = "";
+	let r = "";
+
+	if (o.link != undefined) {
+		linkhtml = "<a href=\"" + o.link + "\">";
+	}
+
+	if (o.title != undefined) {
+		r = "<h2>" + linkhtml + o.title + "</a></h2>";
+	}
+
+	return r;
 }
