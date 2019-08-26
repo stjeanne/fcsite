@@ -23,19 +23,66 @@
 				"The Black Emerald (stories)":
 				[
 					{
-						"alias":"storytitle",
-						"title":"Myra's Seven Conversations",
-						"content":"The emotionally unavailable owner of a bed and breakfast offers a conversation service for women who want to fall in love with her. Written 2011."
+						"alias":"blackem",
+						"title":"The Black Emerald",
+						"content":"A troubled teenager discovers a haunted stone in the closet of an underground cartoonist, which gives her a terrifying power. Written 2010."
 					},
 
 					{
-						"alias":"storytitle",
+						"alias":"chelsea",
+						"title":"Staying up for Days in the Chelsea Hotel",
+						"content":"Based on a dream. Written 2010."
+					},
+
+					{
+						"alias":"energyarcs",
+						"title":"Energy Arcs and Fractal Skies",
+						"content":"A man projects himself into the walls of his girlfriend's apartment. Evergreen Review 1.122, March 2010.",
+						"link": ""
+					},
+
+					{
+						"alias":"tomato",
+						"title":"Tomato Plants",
+						"content":"How are we to care for other lives? Medulla Review 2.2, March 2011.",
+						"link": ""
+					},
+
+					{
+						"alias":"lemongrass",
+						"title":"Putrefying Lemongrass",
+						"content":"A tourist couple attempts to pick up a trans woman at a Vietnamese restaurant in exchange for dessert. CURA #14, 2014."
+					},
+
+					{
+						"alias":"chairs",
+						"title":"Chairs",
+						"content":"How one adapts to prohibitions. Santa Clara Review/Fiction Circus, Spring 2006/March 2008.",
+						"link": ""
+					},
+
+					{
+						"alias":"sataninlove",
+						"title":"Satan in Love",
+						"content":"A young woman is pursued by the devil, who is every other human person. Pushcart nominee. A Capella Zoo, Spring 2010.",
+						"link": ""
+					},
+
+					{
+						"alias":"skeleton",
+						"title":"Skeleton",
+						"content":"A young woman forms a special relationship with a skeleton her shitty boyfriend gives her as a gift. Night Train, September 2008.",
+						"link": ""
+					},
+
+					{
+						"alias":"myra",
 						"title":"Myra's Seven Conversations",
 						"content":"The emotionally unavailable owner of a bed and breakfast offers a conversation service for women who want to fall in love with her. Written 2011."
 					}
 				],
 
-				"Stories (Uncollected)":
+				"Uncollected Fiction":
 				[
 
 					{ 
@@ -83,6 +130,35 @@
 						"content":"Clearly totally fictional story about vampires. Pushcart nominee. In Where We're Going We Don't Need Roads, Topside: 2014.",
 						"link": ""
 
+					}
+				],
+
+				"Nonfiction": 
+				[
+					{
+						"alias": "quidproquo",
+						"title": "Quid Pro Quo, Just Like That",
+						"content": "About transitioning while working in publishing. Tales of Two Cities, OR Books/Viking: 2014/2016.",
+						"link": ""
+					}
+				],
+
+				"Depreciated":
+				[
+					{
+						"content": "Temple of Zuul. Prick of the Spindle 4.4, Spring 2011."
+					},
+					{
+						"content": "The New Hat. Ampersand Review, Spring 2010."
+					},
+					{
+						"content": "The Apotheosis of Tommy Clay. Bartleby-Snopes, April 2009."
+					},
+					{
+						"content": "It's Easy. Word Riot, 2008."
+					},
+					{
+						"content": "On Becoming a Machine. Apocalypse Magazine, February 2007."
 					}
 				]
 		},
