@@ -22,7 +22,7 @@ let loadPageChunk = function(pg) {
 	$("#gallery").html("");
 
 
-	if (pg == 'Prose') {
+	if (pg == 'Writing') {
 
 		for (i in SI[pg]) {
 

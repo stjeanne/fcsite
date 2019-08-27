@@ -1,5 +1,5 @@
 {
-	"Prose" : 
+	"Writing" : 
 
 			{
 				"Novels" :
@@ -7,7 +7,7 @@
 					{
 						"alias":"summerfun",
 						"title":"Summer Fun",
-						"content": "An novel in letters about a trans woman who lives in New Mexico and who is a real true fan of a certain band. Forthcoming, Soho Press, 2021.",
+						"content": "An novel in letters about a trans woman who lives in [New Mexico|https://en.wikipedia.org/wiki/Truth_or_Consequences,_New_Mexico] and who is a real true fan of a certain band. Forthcoming, Soho Press, 2021.",
 						"link": "http://sohopress.com"
 					},
 
@@ -37,42 +37,37 @@
 					{
 						"alias":"energyarcs",
 						"title":"Energy Arcs and Fractal Skies",
-						"content":"A man projects himself into the walls of his girlfriend's apartment. Evergreen Review 1.122, March 2010.",
-						"link": ""
+						"content":"A man projects himself into the walls of his girlfriend's apartment. [Evergreen Review|https://evergreenreview.com/] 1.122, March 2010."
 					},
 
 					{
 						"alias":"tomato",
 						"title":"Tomato Plants",
-						"content":"How are we to care for other lives? Medulla Review 2.2, March 2011.",
-						"link": ""
+						"content":"How are we to care for other lives? Medulla Review 2.2, March 2011."
 					},
 
 					{
 						"alias":"lemongrass",
 						"title":"Putrefying Lemongrass",
-						"content":"A tourist couple attempts to pick up a trans woman at a Vietnamese restaurant in exchange for dessert. CURA #14, 2014."
+						"content":"A tourist couple attempts to pick up a trans woman at a Vietnamese restaurant in exchange for dessert. [CURA|http://curamag.com/] #14, 2014."
 					},
 
 					{
 						"alias":"chairs",
 						"title":"Chairs",
-						"content":"How one adapts to prohibitions. Santa Clara Review/Fiction Circus, Spring 2006/March 2008.",
-						"link": ""
+						"content":"How one adapts to prohibitions. Santa Clara Review/Fiction Circus, Spring 2006/March 2008."
 					},
 
 					{
 						"alias":"sataninlove",
 						"title":"Satan in Love",
-						"content":"A young woman is pursued by the devil, who is every other human person. Pushcart nominee. A Capella Zoo, Spring 2010.",
-						"link": ""
+						"content":"A young woman is pursued by the devil, who is every other human person. Pushcart nominee. [A Capella Zoo|http://acapellazoo.com], Spring 2010."
 					},
 
 					{
 						"alias":"skeleton",
 						"title":"Skeleton",
-						"content":"A young woman forms a special relationship with a skeleton her shitty boyfriend gives her as a gift. Night Train, September 2008.",
-						"link": ""
+						"content":"A young woman forms a special relationship with a skeleton her shitty boyfriend gives her as a gift. [Night Train|http://www.nighttrainmagazine.com/], September 2008."
 					},
 
 					{
@@ -89,46 +84,45 @@
 						"alias": "fount",
 						"title": "The Fountainhead", 
 						"content":"The teenage fan of a problematic novelist-philosopher works at an office supply store. Evergreen Review 2.3, March 2019.",
-						"link": ""
+						"link": "https://evergreenreview.com/read/the-fountainhead/"
 					},	
 
 					{
 						"title":"White People Anonymous",
-						"content":"A trans woman is required to join a twelve-step group for white women recovering from online racism. n+1, March 2018.",
-						"link": ""
+						"content":"A trans woman is required to join a twelve-step group for white women in theory attempting to recover from their own racism. [n+1|https://nplusonemag.com/online-only/online-only/white-people-anonymous], March 2018.",
+						"link": "https://nplusonemag.com/online-only/online-only/white-people-anonymous/"
 					},
 
 					{	"title":"Angels Are Here to Help You",
-						"content":"In a mysterious future, one trans woman and her famous cat set out for the stars to start a hallucinogenic drug company. In Meanwhile, Elsewhere, Topside: 2017.",
-						"link": ""
-
+						"content":"In a mysterious future, one trans woman and her famous cat set out for the stars to start an import/export company for space drugs. In Meanwhile, Elsewhere, Topside: 2017.",
+						"link": "https://www.indiebound.org/book/9781627290180"
 					},
 
 					{
 						"title":"The L7 Gene",
-						"content":"On returning home for Thanksgiving, a trans woman learns that her mother has created a cis clone of her. WIRED, January 2017.",
-						"link": ""
+						"content":"On returning home for Thanksgiving, a trans woman learns that her mother has created a cis clone of her. [WIRED|https://www.wired.com/2016/12/thornton-on-its-way-to-close/], January 2017.",
+						"link": "https://www.wired.com/2016/12/thornton-on-its-way-to-close/"
 
 					},
 
 					{
 						"title":"Tipping Point",
-						"content":"An actor approaches some trans women with a Proposition. WSQ, Fall/Winter 2016.",
-						"link": ""
+						"content":"An actor approaches some trans women with a Proposition. [WSQ|https://www.feministpress.org/books-n-z/wsq-queer-methods], Fall/Winter 2016.",
+						"link": "https://www.feministpress.org/books-n-z/wsq-queer-methods"
 
 					},
 
 					{
 						"title":"Red Velvet LLC",
-						"content":"Two trans folks attempt to start a bakery company. Twitter Fiction Festival, 2015.",
-						"link": ""
+						"content":"Two trans folks attempt to start a bakery company. Twitter Fiction Festival, 2015. Made with [Twine|http://twinery.org/]!",
+						"link": "http://fictioncircus.com/Jeanne/TwitFic2015/"
 
 					},
 
 					{
 						"title":"Vampire Book Tour",
 						"content":"Clearly totally fictional story about vampires. Pushcart nominee. In Where We're Going We Don't Need Roads, Topside: 2014.",
-						"link": ""
+						"link": "https://www.goodreads.com/book/show/23280338-where-we-re-going-we-don-t-need-roads?from_search=true"
 
 					}
 				],
@@ -139,7 +133,7 @@
 						"alias": "quidproquo",
 						"title": "Quid Pro Quo, Just Like That",
 						"content": "About transitioning while working in publishing. Tales of Two Cities, OR Books/Viking: 2014/2016.",
-						"link": ""
+						"link": "https://www.indiebound.org/book/9780143128304"
 					}
 				],
 
@@ -207,27 +201,26 @@
 		{
 			"alias":"cap1",
 			"title": "Capitalism 1",
-			"content": "A short game about what capitalism is like. Construct2, 2014.",
+			"content": "A short game about what capitalism is like. [Construct2|https://www.scirra.com/], 2014.",
 			"link": "http://fictioncircus.com/Jeanne/capitalism1"
 		},
 
 		{
 			"alias":"cap0",
 			"title": "Capitalism Zero: Crisis in the Stars",
-			"content": "An ongoing game project about a strange dream. HTML/CSS/JS, 2018-present.",
-			"link": "http://fictioncircus.com/Jeanne/capitalism0"
+			"content": "An ongoing game project about a strange dream. VERY in progress. HTML/CSS/JS, 2018-present."
 		},
 
 		{
 			"alias": "cap2",
 			"title": "Capitalism 2: Planet of the Death Dragons",
-			"content": "You and your pal will definitely get the better of capitalism this time. Construct2, 2014-present (unfinished)."
+			"content": "You and your pal will definitely get the better of capitalism this time. [Construct2|https://www.scirra.com/], 2014-present (unfinished)."
 		},
 
 		{
 			"alias": "id",
 			"title": "Immortal Defense",
-			"content": "A weird tower defense game based on ideas about immortality + violence in games. Just the story. I was very young! Studio Eres, Gamemaker, 2007.",
+			"content": "A weird tower defense game based on ideas about immortality + violence in games. Just the story. I was very young! [Studio Eres|http://www.studioeres.com/], Gamemaker, 2007.",
 			"link": "https://store.steampowered.com/app/298360/Immortal_Defense/"
 		}
 	],
@@ -245,10 +238,15 @@
 		{
 			"alias":"freelance",
 			"title":"Freelance Editorial",
-			"content":"For years I made my living doing freelance editorial work for [various|http://greenleafbookgroup.com] [clients|http://stackeddeckpress.com]. I haven't been taking steady clients since 2018 due to my day job, but you never know: [email me|mailto:jwthornton@gmail.com] for info about services and rates?"
+			"content":"For years I made my living doing freelance editorial work for [various|http://greenleafbookgroup.com] [clients|http://stackeddeckpress.com]. For the most part I did line editing, copyediting, and manuscript evaluation, but sometimes book design, proofreading, and indexing as well. I haven't been taking steady clients since 2018 due to my day job, but you never know: [email me|mailto:jwthornton@gmail.com] for info about services and rates?"
+		},
+
+		{
+			"alias":"rocksalt",
+			"title":"Rocksalt Magazine",
+			"content":"After having to leave publishing in 2011 I was sad for a while and wanted to do some kind of large publishing project. [Rocksalt Magazine|http://fictioncircus.com/rocksalt/], with copublisher [Geoff Sebesta|http://unnecessaryg.com/] was the result. Mostly Austin-based comics and visual art, print circulation of 6,000, distributed by [Motorblade|http://motorblade.com/]. A wonderful time.",
+			"link":"http://fictioncircus.com/rocksalt/"
 		}
-
-
 
 	],
 

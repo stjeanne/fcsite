@@ -9,6 +9,10 @@ a {
 	text-decoration: none;
 }
 
+a:hover {
+	color: #fcdfa6;
+}
+
 h1 {
 	font-family: stolzl, sans-serif;
 	font-weight: 400;
@@ -92,6 +96,14 @@ h2 {
 	float:right;
 }
 
+#main a {
+	color: #aa853a;
+}
+
+#main a:hover {
+	color: #fcdfa6;
+}
+
 #main h1 {
 		color: #AA3939;
 }
@@ -105,4 +117,15 @@ h2 {
 	clear:both;
 	text-align: center;
 	font: 8px;
+}
+
+.floatimg {
+	float:left;
+	height:100px;
+	margin-right:10px;
+	margin-bottom: 10px;
+}
+
+#buythis ul {
+	list-style: none
 }
