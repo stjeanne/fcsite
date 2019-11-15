@@ -80,6 +80,12 @@
 				"Uncollected Fiction":
 				[
 
+					{
+						"alias": "ninebeds",
+						"title": "Nine Bedrooms",
+						"content": "A description of nine bedrooms. Forthcoming, Epiphany Magazine, 2019."
+					},
+					
 					{ 
 						"alias": "fount",
 						"title": "The Fountainhead", 
